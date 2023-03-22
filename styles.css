@@ -1,0 +1,81 @@
+@font-face {
+    font-family: face;
+    src: url(Minecraft.ttf);
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/44/d3/10/44d3109a29ebcd3b938cad9c6d858fcb.gif);
+    background-size: 1500px 700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0;
+padding: 0;
+
+}
+
+.cronometro{
+    margin: 4% 70% 5% 2%;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 2%;
+    background-color: #8D226D;
+
+}
+
+button {
+
+padding: 10px;
+background-color: rgb(198, 201, 201);
+cursor: pointer;
+box-shadow: rgb(0, 0, 0) 1px 1px 1px 0.5px;
+margin-right: 10px;
+transition-duration: 0.4s;
+border-radius: 5px;
+border-color: none;
+border-top: none;
+border-left: none;
+
+
+}
+
+button:hover {
+
+background-color: #37056B; /* Green */
+  color: white;
+
+}
+
+h1 {
+
+    text-align: center;
+    color: rgb(198, 201, 201);
+    border-radius: 5px;
+    margin-left: -51%;
+    margin-right: 20%;
+margin-top: 4.8%;
+font-family: face;
+
+}
+
+.frase {
+
+text-align:left
+font-size: 1.5rem;
+
+}
+
+footer {
+
+    position: fixed;
+margin-top: 18%;
+background-color: rgba(0, 0, 0, 0.356);
+text-align: center;
+padding: 2%;
+width: 100%;
+bottom: 0;
+color: white;
+
+}
+
